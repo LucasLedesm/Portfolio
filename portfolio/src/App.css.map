@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,QAAQ,CAAC;EACL,WAAW,EFCP,OAAO,EAAE,OAAO;CEAvB",
+    "sources": [
+        "App.scss",
+        "_Variables.scss",
+        "components/Home/_Home.scss",
+        "components/Navbar/_Navbar.scss",
+        "components/Footer/_Footer.scss"
+    ],
+    "names": [],
+    "file": "App.css"
+}
