@@ -1,25 +1,103 @@
 .navbarr {
-    text-decoration: none ;
-    font-family: $font2;
-    color: white ;
-    
-}
-@mixin navbarr_pages {
     text-decoration: none;
-    color: white;
-    margin-right: 1rem;
-}  
-        
+    color: $color2;
+    backdrop-filter: blur(5px);
+}
+
+@mixin navbarr_pages {
+ 
+    color: $transparent;
+    margin:0.3rem;
+
+}
+
+.btn-custom {
+    color: #fff;
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+.btn1 {
+    color: $color2;
+    line-height: 40px;
+    padding: 0;
+    border: none;
+  }
+  .btn1 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn1:before,
+  .btn1:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: $color2;
+    box-shadow: 0 0 5px $color2;
+    transition: all 0.3s ease;
+  }
+  .btn1:before{
+     height: 50%;
+     width: 2px;
+  }
+  .btn1:after {
+    width: 20%;
+    height: 2px;
+  }
+  .btn1:hover:before {
+    height: 100%;
+  }
+  .btn1:hover:after {
+    width: 100%;
+  }
+  .btn1 span:before,
+  .btn1 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: $color2;
+    box-shadow: 0 0 5px $color2;
+    transition: all 0.3s ease;
+  }
+  .btn1 span:before {
+    width: 2px;
+    height: 50%;
+  }
+  .btn1 span:after {
+    height: 2px;
+    width: 20%;
+  }
+  .btn1 span:hover:before {
+    height: 100%;
+  }
+  .btn1 span:hover:after {
+    width: 100%;
+  }
+
 
 .navbarr_pages1 {
-    @include navbarr_pages()
+    @include navbarr_pages();
 }
+
 .navbarr_pages2 {
     @include navbarr_pages()
 }
+
 .navbarr_pages3 {
     @include navbarr_pages()
 }
+
 .navbarr_pages4 {
     @include navbarr_pages()
 }

@@ -1,17 +1,16 @@
-$font1: 'Chewy', cursive ;
-$font2: 'Baloo Tamma 2', cursive ;
-$font3: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$font1: Arial, Helvetica, sans-serif;
+$font2: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
 
 
 
 /* SCSS HEX */
-$color1: #04294Fff;
-$color2: #01ABDDff;
-$color3: #FDB201ff;
-$color4: #F04F23ff;
-
+$color1: #04294Fff !important;
+$color2: #01ABDDff !important;
+$color3: #FDB201ff !important;
+$color4: #F04F23ff !important;
+$transparent :rgba(255, 255, 255, 0.708);
 
 /* SCSS Gradient */
 $gradient-top: linear-gradient(0deg, #04294Fff, #01ABDDff, #FDB201ff, #F04F23ff);
@@ -28,8 +27,14 @@ $gradient-radial: radial-gradient(#04294Fff, #01ABDDff, #FDB201ff, #F04F23ff);
 
 
 @mixin Pages {
-    background-color: $color2;
+    background-color: $color1;
     height: 100vh;
     background-repeat: no-repeat;
     background-position: right;
+};
+
+.App {
+    text-decoration: none;
+    font-family: $font1;
+    background: $color1;
 }

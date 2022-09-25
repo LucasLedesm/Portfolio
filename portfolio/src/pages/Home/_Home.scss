@@ -1,4 +1,142 @@
 .HomePage {
-       background-image: url("./assets/image/Flame_Space_Adventures_transparent_by_Icons8.gif");
-       @include Pages()
-     }
+  padding-top: 10rem;
+  background-image: url("./assets/image/Flame_Space_Adventures_transparent_by_Icons8.gif");
+  @include Pages();
+}
+
+.window {
+  border-radius: 3px;
+  background-color: black;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  width: 45%;
+  margin-left: 10rem;
+  
+
+  
+
+  &:before {
+    content: ' ';
+    display: block;
+    height: 3rem;
+    background: transparent;
+    background-color: rgba(34, 34, 34, 0.531);
+  }
+
+  &:after {
+    content: '. . .';
+    position: absolute;
+    left: 12px;
+    right: 0;
+    top: -3px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 96px;
+    color: #fff;
+    line-height: 0;
+    letter-spacing: -12px;
+  }
+}
+
+.terminal {
+  margin: 1rem;
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: $color4;
+
+  .command {
+    width: 0%;
+    white-space: wrap;
+    overflow: hidden;
+    animation: write-command 5s both;
+
+    &:before {
+      content: '$ ';
+      color: $color4;
+    }
+  }
+
+  .log {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: write-log 5s both;
+  }
+
+  p:nth-child(2) {
+    animation-delay: 2s;
+  }
+
+  p:nth-child(3) {
+    animation-delay: 8s;
+  }
+}
+
+@keyframes write-command {
+  0% {
+    width: 0%;
+  }
+
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes write-log {
+  0% {
+    height: 0;
+  }
+
+  16% {
+    height: 0;
+  }
+
+  17% {
+    height: 18px;
+  }
+
+  33% {
+    height: 18px;
+  }
+
+  34% {
+    height: 37px;
+  }
+
+  51% {
+    height: 37px;
+  }
+
+  52% {
+    height: 55px;
+  }
+
+  69% {
+    height: 55px;
+  }
+
+  70% {
+    height: 74px;
+  }
+
+  87% {
+    height: 74px;
+  }
+
+  88% {
+    height: 92px;
+  }
+
+  88% {
+    height: 92px;
+  }
+
+  99% {
+    height: 92px;
+  }
+
+  100% {
+    height: 110px;
+  }
+}

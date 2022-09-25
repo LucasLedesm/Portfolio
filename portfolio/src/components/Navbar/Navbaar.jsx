@@ -11,16 +11,15 @@ import { Link } from 'react-router-dom';
 
 function Navbaar() {
     return (
-        <Navbar className='navbarr' collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar className='navbarr fixed-top' collapseOnSelect expand="lg" >
             <Container>
-                <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="navbarr_pages me-auto">
-                        <Link to={"/"} className="navbarr_pages1"><BsFillHouseDoorFill />Home</Link>
-                        <Link to={"/about"}className="navbarr_pages2"><BsFillFileEarmarkPersonFill />About</Link>
-                        <Link to={"/projects"} className="navbarr_pages3" ><BsFillArchiveFill />Projects</Link>
-                        <Link to={"/resume"} className="navbarr_pages4" ><BsFillFileEarmarkFill />Resume</Link>
+                        <Link to={"/"} className="btn btn1 btn-custom navbarr_pages1"><BsFillHouseDoorFill />Home</Link>
+                        <Link to={"/about"}className="btn btn1 btn-custom navbarr_pages2"><BsFillFileEarmarkPersonFill />About</Link>
+                        <Link to={"/projects"} className="btn btn1 btn-custom navbarr_pages3" ><BsFillArchiveFill />Projects</Link>
+                        <Link to={"/resume"} className="btn btn1 btn-custom navbarr_pages4" ><BsFillFileEarmarkFill />Resume</Link>
                     </Nav>
                     <Nav>
                         <div>

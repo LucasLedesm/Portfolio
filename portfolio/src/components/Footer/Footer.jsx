@@ -1,28 +1,23 @@
 import React from "react";
-const Footer = () => <footer className="page-footer font-small blue pt-4">
-    <div className="container-fluid text-center text-md-left">
+import { BsLinkedin } from "react-icons/bs";
+import { BsMailbox2 } from "react-icons/bs";
+import { BsWhatsapp } from "react-icons/bs";
+
+const Footer = () => <footer className="footer page-footer font-small">
+    <div className="container-fluid">
         <div className="row">
-            <div className="col-md-6 mt-md-0 mt-3">
-                <h5 className="text-uppercase">Footer Content</h5>
-                <p>Here you can use rows and columns to organize your footer content.</p>
+            <div className="col-md-6">
+                <h6>Designed and Developed by Lucas Ledesma</h6>
             </div>
-
-            <hr className="clearfix w-100 d-md-none pb-0"/>
-
-            <div className="col-md-3 mb-md-0 mb-3">
-                <h5 className="text-uppercase">Contact</h5>
+            <div className="col-md-3">
                 <ul className="list-unstyled">
-                    <li><a href="#!">Linkedin</a></li>
-                    <li><a href="#!">Gmail</a></li>
+                    <li ><a className="btn " href="https://ar.linkedin.com/"><BsLinkedin /></a></li>
+                    <li ><a className="btn " href="https://mail.google.com/"><BsMailbox2 /></a></li>
+                    <li ><a className="btn " href="www.google.com"><BsWhatsapp /></a></li>
                 </ul>
             </div>
         </div>
     </div>
-
-    <div className="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> LucasLedesma.com</a>
-    </div>
-
 </footer>
 
 export default Footer
