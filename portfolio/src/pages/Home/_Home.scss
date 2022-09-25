@@ -140,3 +140,39 @@
     height: 110px;
   }
 }
+
+.textMe {
+  color: $color2;
+  font-size: 1.5rem;
+  //width: 40%;
+  margin-left: -8.5rem;
+  
+
+}
+.TitleMe {
+  color: $color2;
+ // margin-left: 10rem;
+  padding-top: 10%;
+  margin-left: -8.5rem;
+}
+
+.colorText {
+  color: $color4;
+}
+
+.TextRow {
+  height: 100%;
+}
+
+@media (max-width: 720px) {
+  .HomePage {
+   height: auto;
+   text-align: center;
+   background-color: $color1;
+   background-image: none;
+  }
+  .TitleMe {
+    text-align: center;
+    padding-left: 1rem;
+  }
+}

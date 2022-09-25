@@ -5,7 +5,7 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => <footer className="footer page-footer font-small">
     <div className="container-fluid">
-        <div className="row">
+        <div className="row FooterRow">
             <div className="col-md-6">
                 <h6>Designed and Developed by Lucas Ledesma</h6>
             </div>
