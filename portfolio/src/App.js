@@ -1,11 +1,12 @@
 import './App.css';
-import Navbaar from './components/Navbar/Navbaar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Routees from './routes';
+
 
 function App() {
   return (
     <div className="App">
-     <Navbaar/>
+    <Routees/>
     </div>
   );
 }

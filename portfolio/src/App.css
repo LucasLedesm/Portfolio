@@ -1,4 +1,64 @@
+/* SCSS HEX */
+/* SCSS Gradient */
 .navbarr {
-  font-family: "Chewy", cursive;
+  text-decoration: none;
+  font-family: "Baloo Tamma 2", cursive;
+  color: white;
+}
+
+.navbarr_pages1 {
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+}
+
+.navbarr_pages2 {
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+}
+
+.navbarr_pages3 {
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+}
+
+.navbarr_pages4 {
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+}
+
+.HomePage {
+  background-image: url("./assets/image/Flame_Space_Adventures_transparent_by_Icons8.gif");
+  background-color: #01ABDDff;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.AboutPage {
+  background-image: url("./assets/image/Flame_No_Connection_transparent_by_Icons8.gif");
+  background-color: #01ABDDff;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.ProjectIPage {
+  background-image: url("./assets/image/Flame_Design_Science_transparent_by_Icons8.gif");
+  background-color: #01ABDDff;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.ResumePage {
+  background-image: url("./assets/image/Flame_Education_Popularity_For_Animation_transparent_by_Icons8.gif");
+  background-color: #01ABDDff;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 /*# sourceMappingURL=App.css.map */

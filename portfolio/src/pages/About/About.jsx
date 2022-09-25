@@ -2,8 +2,9 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>About</div>
-  )
+    <div className='AboutPage'>
+      </div>
+      )
 }
 
-export default About
+      export default About

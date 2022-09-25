@@ -1,3 +1,25 @@
 .navbarr {
-    font-family: $font1;
+    text-decoration: none ;
+    font-family: $font2;
+    color: white ;
+    
+}
+@mixin navbarr_pages {
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+}  
+        
+
+.navbarr_pages1 {
+    @include navbarr_pages()
+}
+.navbarr_pages2 {
+    @include navbarr_pages()
+}
+.navbarr_pages3 {
+    @include navbarr_pages()
+}
+.navbarr_pages4 {
+    @include navbarr_pages()
 }
