@@ -377,6 +377,29 @@
   height: 100vh;
   background-repeat: no-repeat;
   background-position: right;
+  text-align: center;
+}
+
+.Card-Tech {
+  padding-top: 10%;
+  margin-left: -5rem;
+  color: antiquewhite;
+  font-size: 4rem;
+}
+
+.Card-Tech :hover {
+  font-size: 6rem;
+  -webkit-box-shadow: 7px 7px 5px 0px #01ABDDff !important;
+          box-shadow: 7px 7px 5px 0px #01ABDDff !important;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-radius: 10px;
+  color: #01ABDDff !important;
+}
+
+.Title {
+  padding-top: 10%;
+  color: white;
 }
 
 .ProjectIPage {
