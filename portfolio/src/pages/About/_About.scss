@@ -1,24 +1,41 @@
-.AboutPage {
-    background-image: url("./assets/image/Flame_No_Connection_transparent_by_Icons8.gif");
+#AboutPage { 
+   background-image: url("./assets/image/Flame_Training_transparent_by_Icons8.gif");
    @include Pages();
-   text-align: center;
+  // margin-inline-start  : 15%;
+   margin-bottom: 20%;
   }
+  @media (max-width: 720px) {
+    #AboutPage {
+     height: auto;
+     text-align: center;
+     background-color: $color1;
+     background-image: none;
+     margin-left: 4rem;
+     padding-top: 4rem;
+    }
+    .Title {
+        font-size: 4rem;
+    }
+}
+
+  
 .Card-Tech {
+    
     padding-top: 10%;
     margin-left: -5rem;
-    color: antiquewhite;
     font-size:4rem;
+    color: $color2;
     
     :hover {
-        font-size: 6rem;
-        box-shadow: 7px 7px 5px 0px $color2;
+        font-size: 5.3rem;
+        box-shadow: 7px 7px 5px 2px $color2;
+        border-radius: 30%;
+        color: $color4;
         transition: all 0.5s ease;
-        border-radius: 10px;
-        color: $color2;
     }
 }  
 
 .Title {
     padding-top: 10%;
-    color: white;
+    color: $color2;
 }

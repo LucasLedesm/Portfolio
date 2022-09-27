@@ -1,7 +1,7 @@
 .footer {
-   color: $color4;
+   color: $color2;
    background-color: black;
-   border-top: 0.3rem solid $color4;
+   border-top: 0.3rem solid $color2;
    margin-top: 10%;
 }
 .list-unstyled {
@@ -14,4 +14,11 @@
     justify-content: space-between;
     align-items: center;
     align-content: center;
+}
+
+
+@media (max-width: 720px) {
+    .footer  {
+     text-align: center;
+    }
 }

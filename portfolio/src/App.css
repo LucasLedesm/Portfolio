@@ -125,9 +125,9 @@
 }
 
 .footer {
-  color: #F04F23ff !important;
+  color: #01ABDDff !important;
   background-color: black;
-  border-top: 0.3rem solid #F04F23ff !important;
+  border-top: 0.3rem solid #01ABDDff !important;
   margin-top: 10%;
 }
 
@@ -150,6 +150,12 @@
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+@media (max-width: 720px) {
+  .footer {
+    text-align: center;
+  }
 }
 
 .HomePage {
@@ -365,41 +371,61 @@
     background-color: #04294Fff !important;
     background-image: none;
   }
+  .textMe {
+    margin-left: auto;
+    text-align: center;
+    font-size: 1rem;
+  }
   .TitleMe {
+    margin-left: auto;
     text-align: center;
     padding-left: 1rem;
   }
 }
 
-.AboutPage {
-  background-image: url("./assets/image/Flame_No_Connection_transparent_by_Icons8.gif");
+#AboutPage {
+  background-image: url("./assets/image/Flame_Training_transparent_by_Icons8.gif");
   background-color: #04294Fff !important;
   height: 100vh;
   background-repeat: no-repeat;
   background-position: right;
-  text-align: center;
+  margin-bottom: 20%;
+}
+
+@media (max-width: 720px) {
+  #AboutPage {
+    height: auto;
+    text-align: center;
+    background-color: #04294Fff !important;
+    background-image: none;
+    margin-left: 4rem;
+    padding-top: 4rem;
+  }
+  .Title {
+    font-size: 4rem;
+  }
 }
 
 .Card-Tech {
   padding-top: 10%;
   margin-left: -5rem;
-  color: antiquewhite;
   font-size: 4rem;
+  color: #01ABDDff !important;
 }
 
 .Card-Tech :hover {
-  font-size: 6rem;
-  -webkit-box-shadow: 7px 7px 5px 0px #01ABDDff !important;
-          box-shadow: 7px 7px 5px 0px #01ABDDff !important;
+  font-size: 5.3rem;
+  -webkit-box-shadow: 7px 7px 5px 2px #01ABDDff !important;
+          box-shadow: 7px 7px 5px 2px #01ABDDff !important;
+  border-radius: 30%;
+  color: #F04F23ff !important;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  border-radius: 10px;
-  color: #01ABDDff !important;
 }
 
 .Title {
   padding-top: 10%;
-  color: white;
+  color: #01ABDDff !important;
 }
 
 .ProjectIPage {
