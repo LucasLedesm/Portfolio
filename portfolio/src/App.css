@@ -389,7 +389,7 @@
   height: 100vh;
   background-repeat: no-repeat;
   background-position: right;
-  margin-bottom: 20%;
+  margin-bottom: 40%;
 }
 
 @media (max-width: 720px) {
@@ -442,5 +442,10 @@
   height: 100vh;
   background-repeat: no-repeat;
   background-position: right;
+}
+
+#CalendarAbout {
+  padding-top: 7rem;
+  color: #01ABDDff !important;
 }
 /*# sourceMappingURL=App.css.map */

@@ -1,4 +1,5 @@
 import React from 'react'
+import Github from "../../components/Github/Github";
 
 import { DiBootstrap } from "react-icons/di";
 import { DiCss3 } from "react-icons/di";
@@ -28,7 +29,7 @@ const About = () => {
       <Container>
       <Row>
         <Col>
-          <h1 className='Title'><span className='colorText'>Professional</span> Skillset</h1>
+          <h1 className='Title'><strong className='colorText'>Professional</strong> Skillset</h1>
         </Col>
       </Row>
       <Row>
@@ -52,7 +53,7 @@ const About = () => {
       </Row>
       <Row>
         <Col>
-          <h1 className='Title'><span className='colorText'>Tools</span> I use</h1>
+          <h1 className='Title'><strong className='colorText'>Tools</strong> I use</h1>
         </Col>
       </Row>
       <Row>
@@ -62,7 +63,9 @@ const About = () => {
         <Col xs={6} md={3} className="Card-Tech"><SiGoogle /></Col>
         
       </Row>
+      <Github/>
     </Container>
+    
     </div>
   )
 }
