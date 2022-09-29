@@ -434,6 +434,21 @@
   height: 100vh;
   background-repeat: no-repeat;
   background-position: right;
+  width: 100vh;
+}
+
+#Projects {
+  padding-top: 10%;
+}
+
+.TittleProjects {
+  padding-top: 20%;
+  color: #01ABDDff !important;
+}
+
+#CardPr {
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.708);
 }
 
 .ResumePage {

@@ -1,4 +1,17 @@
 .ProjectIPage {
     background-image: url("./assets/image/Flame_Design_Science_transparent_by_Icons8.gif");
-   @include Pages()
+   @include Pages();
+   width: 100vh;
   }
+#Projects {
+    padding-top: 10%;
+}
+.TittleProjects {
+    padding-top: 20%;
+    color: $color2;
+}
+#CardPr{
+    background: transparent;
+    background-color: $transparent;
+ 
+}
