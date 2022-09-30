@@ -451,6 +451,18 @@
   background-color: rgba(255, 255, 255, 0.708);
 }
 
+@media (max-width: 720px) {
+  .ProjectIPage {
+    background: none;
+    text-align: center;
+    height: 100%;
+  }
+  #CardPr {
+    margin: auto;
+    margin-bottom: 10%;
+  }
+}
+
 .ResumePage {
   background-image: url("./assets/image/Flame_Education_Popularity_For_Animation_transparent_by_Icons8.gif");
   background-color: #04294Fff !important;
